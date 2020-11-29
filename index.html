@@ -19,6 +19,11 @@
         <link href="css/styles.css" rel="stylesheet" />
         
     </head>
+    <script>
+        var f = new Date();
+         var fecha = document.write(f.getFullYear());
+         document.getElementById("fecha") = fecha;
+        </script>
     <body id="page-top">
   <!--Icono de whatsapp-->
   <a href="https://wa.me/573024284090?text=Me%20gustaría%20conocer%20más%20sobre%20su%20trabajo." class="whatsapp" target="_blank"> <i class="fab fa-whatsapp whatsapp-icon"></i></a>
@@ -267,7 +272,15 @@
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright © Sitio Web 2020</small></div>
+            <div class="container"><small>Copyright © Sitio Web <script type="text/javascript">
+
+                copyright=new Date();
+                
+                update=copyright.getFullYear();
+                
+                document.write(update + " " + "Jesus Castro");
+                
+                </script></span></small></div>
         </div>
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
         <div class="scroll-to-top d-lg-none position-fixed">
